@@ -9,7 +9,12 @@ public class Copier {
     }
 
     public void Copy() {
-       destination.SetChar(source.GetChar());
+        while (true) {
+            char character = source.GetChar();
+            if (character == '\n') {
+                break;
+            }
+            destination.SetChar(character);
+        }
     }
-
 }

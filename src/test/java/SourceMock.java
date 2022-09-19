@@ -3,16 +3,13 @@ import java.util.List;
 
 public class SourceMock implements ISource{
 
-    private char[] characters;
-    public SourceMock(char[] characters){
+    private String characters;
+    private int index = 0;
+    public SourceMock(String characters){
         this.characters = characters;
     }
     @Override
     public char GetChar() {
-        for (char character:
-             characters) {
-            return character;
-        }
-        return '\n';
+       return characters.charAt(index++) ;
     }
 }

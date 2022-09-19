@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CopierShould" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-19T13:46:02" hostname="LAPTOP-U79Q27T1" time="0.043">
+  <properties/>
+  <testcase name="[1] abc&#10;, abc" classname="CopierShould" time="0.037"/>
+  <testcase name="[2] Hello there&#10;, Hello there" classname="CopierShould" time="0.0"/>
+  <testcase name="create_a_copy()" classname="CopierShould" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

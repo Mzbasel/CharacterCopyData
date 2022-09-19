@@ -2,9 +2,14 @@ import java.util.ArrayList;
 
 public class DestinationMock implements IDestination{
 
-    ArrayList<Character> characters
+    String result = "";
+
     @Override
     public void SetChar(char character) {
+        this.result += character;
+    }
 
+    public String getResult() {
+        return this.result;
     }
 }
